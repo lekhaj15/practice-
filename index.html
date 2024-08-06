@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery Delights</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-4">
+        <div class="container">
+            <h1 class="display-4">Bakery Delights</h1>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#">Bakery Delights</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menu">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero bg-light text-center py-5">
+        <div class="container">
+            <h2 class="display-4">Welcome to Bakery Delights!</h2>
+            <p class="lead">Freshly baked goodies just for you.</p>
+            <img src="C:\Users\LJ\OneDrive - Danaher\Desktop\webapp\th" class="img-fluid rounded" alt="Bakery">
+        </div>
+    </section>
+
+    <section id="about" class="about text-center py-5">
+        <div class="container">
+            <h2 class="display-4">About Us</h2>
+            <p class="lead">We are a family-owned bakery committed to bringing you the finest baked goods. Our ingredients are locally sourced, and we bake with love and care.</p>
+            <img src="C:\Users\LJ\OneDrive - Danaher\Desktop\webapp\bread" class="img-fluid rounded" alt="Bread">
+        </div>
+    </section>
+
+    <section id="menu" class="menu bg-light text-center py-5">
+        <div class="container">
+            <h2 class="display-4">Our Menu</h2>
+            <ul class="list-unstyled">
+                <li class="lead">Croissants</li>
+                <li class="lead">Chocolate Cake</li>
+                <li class="lead">Cheesecake</li>
+                <li class="lead">Apple Pie</li>
+                <li class="lead">Brownies</li>
+            </ul>
+            <img src="C:\Users\LJ\OneDrive - Danaher\Desktop\webapp\cake" class="img-fluid rounded" alt="Cakes">
+        </div>
+    </section>
+
+    <section id="contact" class="contact text-center py-5">
+        <div class="container">
+            <h2 class="display-4">Contact Us</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-primary text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 Bakery Delights. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
